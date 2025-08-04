@@ -9,14 +9,14 @@ export const load: PageServerLoad = async ({ fetch, url }) => {
 	let staff: Array<{ [key: string]: StaffMember[] }> | null = null;
     
 	try {
-		const response = await fetch(new URL('/staff/members.json', cdn));
+		const response = await fetch(new URL('/staff/roster.json', cdn));
 
-		if (!response.ok) throw new Error(`[${url.pathname}] Error Fetching Staff Members: ${response.status}: ${response.statusText}`);
+		if (!response.ok) throw new Error(`[${url.pathname}] Error Fetching Staff Roster: ${response.status}: ${response.statusText}`);
 
 		staff = await response.json();
 	} catch (err) {
 		// We only log the error as the data is sent as null to the client
-		console.error(`[${url.pathname}] Error Fetching Staff Members:`);
+		console.error(`[${url.pathname}] Error Fetching Staff Roster:`);
 		console.error(err);
 	}
 
