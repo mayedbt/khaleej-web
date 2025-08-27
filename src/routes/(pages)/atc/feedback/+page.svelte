@@ -12,17 +12,17 @@
 </script>
 
 <main class="flex flex-col">
-	<section class="bg-cover bg-center bg-no-repeat h-[40vh]" style="background-image: url({bgImage});">
-		<div class="bg-black/50 h-full">
-			<div class="container flex flex-col justify-center items-center h-full">
-				<div class="flex items-center gap-2 text-secondary font-bold text-2xl md:text-4xl">
+	<section class="h-[40vh] bg-cover bg-center bg-no-repeat" style="background-image: url({bgImage});">
+		<div class="h-full bg-black/50">
+			<div class="container flex h-full flex-col items-center justify-center">
+				<div class="flex items-center gap-2 text-2xl font-bold text-secondary md:text-4xl">
 					<Rss size={36} /> ATC Feedback
 				</div>
 			</div>
 		</div>
 
 		<div class="relative">
-			<div class="absolute bottom-0 w-full h-20 bg-gradient-to-t from-base-300"></div>
+			<div class="absolute bottom-0 h-20 w-full bg-gradient-to-t from-base-300"></div>
 		</div>
 	</section>
 
@@ -56,7 +56,7 @@
 					{/if}
 				</div>
 
-                <div class="form-control mt-4">
+				<div class="form-control mt-4">
 					<label for="pilotCallsign" class="label">
 						<span class="label-text">Your Callsign</span>
 					</label>
@@ -64,7 +64,7 @@
 					<input
 						type="text"
 						name="pilotCallsign"
-                        placeholder="GFA211"
+						placeholder="GFA211"
 						class={cn('input input-bordered', { 'input-error': $errors.pilotCallsign })}
 						bind:value={$form.pilotCallsign}
 						{...$constraints.pilotCallsign}
@@ -155,7 +155,7 @@
 						{...$constraints.rating}
 					/>
 
-					<div class="flex w-full justify-between px-2 text-xs mt-2">
+					<div class="mt-2 flex w-full justify-between px-2 text-xs">
 						<span>Poor</span>
 						<span>Below Average</span>
 						<span>Average</span>

@@ -5,26 +5,26 @@
 </script>
 
 <main class="flex flex-col">
-	<section class="bg-cover bg-center bg-no-repeat h-screen" style="background-image: url({bgImage});">
-		<div class="bg-black/50 h-full">
-			<div class="container flex flex-col justify-center items-center h-full">
-				<h1 class="text-4xl md:text-6xl text-center">Ready to embark on an unforgettable journey?</h1>
+	<section class="h-screen bg-cover bg-center bg-no-repeat" style="background-image: url({bgImage});">
+		<div class="h-full bg-black/50">
+			<div class="container flex h-full flex-col items-center justify-center">
+				<h1 class="text-center text-4xl md:text-6xl">Ready to embark on an unforgettable journey?</h1>
 			</div>
 
 			<div class="relative bottom-60">
-				<ArrowDown size={20} class="w-10 h-10 m-auto text-secondary animate-bounce" />
+				<ArrowDown size={20} class="m-auto h-10 w-10 animate-bounce text-secondary" />
 			</div>
 		</div>
 
 		<div class="relative">
-			<div class="absolute bottom-0 w-full h-20 bg-gradient-to-t from-base-300"></div>
+			<div class="absolute bottom-0 h-20 w-full bg-gradient-to-t from-base-300"></div>
 		</div>
 	</section>
 
 	<section class="bg-base-300 py-10">
-		<div class="container flex flex-col items-center min-h-[40vh]">
+		<div class="container flex min-h-[40vh] flex-col items-center">
 			<div class="hero">
-				<div class="hero-content flex-col lg:flex-row gap-8">
+				<div class="hero-content flex-col gap-8 lg:flex-row">
 					<enhanced:img src="../../../lib/assets/images/bg.png" alt="Join Image" class="w-[28rem] rounded-lg shadow-2xl" />
 
 					<div class="flex flex-col gap-6">
