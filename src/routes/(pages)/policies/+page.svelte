@@ -33,12 +33,12 @@
 
 				<!-- Content -->
 				<div class="relative flex w-full flex-col justify-between gap-4 md:flex-row">
-					<h2 class="card-title text-2xl font-bold"><BookText size={24} /> Khaleej GDPR Policy</h2>
+					<h2 class="card-title text-2xl font-bold"><BookText size={24} /> Khaleej Data Protection & Handling Policy</h2>
 
 					<!-- prettier-ignore -->
 					<a
 						target="_blank"
-						href="https://cdn.khaleejvacc.net/Khaleej%20GDPR%20Policy.pdf"
+						href="https://cdn.khaleejvacc.net/Khaleej%20vACC%20Data%20Protection%20&%20Handling%20Policy.pdf"
 						class="btn btn-secondary shadow-lg"><ExternalLink size={20} /> View</a
 					>
 				</div>

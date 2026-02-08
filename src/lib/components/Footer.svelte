@@ -15,7 +15,7 @@
 					<enhanced:img src="../assets/images/logo_footer.png" alt="Footer Logo" class="h-24 w-auto" />
 				</a>
 
-				<p class="text-neutral-content">© 2024 KHALEEJ VACC • ALL RIGHTS RESERVED</p>
+				<p class="text-neutral-content">© 2026 KHALEEJ VACC • ALL RIGHTS RESERVED</p>
 			</aside>
 
 			<nav class="grid-flow-col gap-4">
