@@ -4,7 +4,6 @@
 	import Events from '$lib/components/Events.svelte';
 
 	import bgImage from '$lib/assets/images/bg.png?enhanced';
-	import airlinkLogo from '$lib/assets/images/partners/airlink.png?enhanced';
 	import vatsimLogo from '$lib/assets/images/partners/vatsim.png?enhanced';
 	import hawkskullzLogo from '$lib/assets/images/partners/hawkskullz.png?enhanced';
 	import gulfSkiesLogo from '$lib/assets/images/partners/gulfskies.png?enhanced';
@@ -55,10 +54,6 @@
 				<div class="divider divider-secondary text-4xl before:bg-opacity-50 after:bg-opacity-50">Our Partners</div>
 
 				<div class="flex flex-wrap items-center justify-center gap-10">
-					<a href="https://airlinkvirtual.com/" target="_blank" rel="noopener noreferrer" aria-label="Airlink Virtual" class="transition-opacity hover:opacity-50">
-						<enhanced:img src={airlinkLogo} alt="Airlink Virtual" class="h-28 w-auto" />
-					</a>
-
 					<a href="https://vatsim.net/" target="_blank" rel="noopener noreferrer" aria-label="VATSIM" class="transition-opacity hover:opacity-50">
 						<enhanced:img src={vatsimLogo} alt="VATSIM" class="h-28 w-auto" />
 					</a>
